@@ -82,7 +82,7 @@
 			return text.substring(0, pos) + result;
 		}
 		// override default parameters
-		options = $.extend({}, defaults, params);
+		var options = $.extend({}, defaults, params);
 
 		this.each(function() {
 
